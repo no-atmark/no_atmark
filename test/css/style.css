@@ -1,0 +1,67 @@
+body{
+  color: #333;
+  font-family: Verdana,sans-serif;
+  margin: 0;
+}
+
+header{
+  background-color: pink;
+  background-image: url(../img/header.jpg);
+  height: 240px;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 60px;
+}
+
+section{
+  text-align: center;
+}
+
+section h1{
+  font-weight: normal;
+}
+
+section p{
+  font-size: 14px;
+}
+
+.icon{
+  border: pink 6px solid;
+  box-shadow: 0px 0px 15px black;
+}
+
+.spoon{
+  border-bottom: 1px solid gray;
+  margin: 60px auto;
+  width: 420px;
+}
+
+footer{
+  width:420px;
+  margin: 0 auto 60px;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0px;
+  float: left;
+}
+
+footer li{
+  display: inline-block;
+}
+
+footer li > a{
+  color: inherit;
+}
+
+footer li > a:hover{
+  opacity: 0.6;
+}
+
+footer p{
+  color: lightgray;
+  font-size: 14px;
+  text-align: right;
+}
